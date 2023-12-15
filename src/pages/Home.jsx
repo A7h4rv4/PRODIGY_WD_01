@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Home() {
   return (
-    <div className="bg-white h-auto pb-56  overflow-hidden">
+    <div className="bg-slate-900 h-auto p-20 pb-60  overflow-hidden">
       <div className="relative isolate px-6 pt-14 lg:px-8">
         <div
           className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
@@ -19,10 +19,10 @@ export default function Home() {
         <div className="mx-auto max-w-2xl pt-32">
           <div className="hidden sm:mb-8 sm:flex sm:justify-center"></div>
           <div className="text-center">
-            <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+            <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
               Sample Web Page
             </h1>
-            <p className="mt-6 text-lg leading-8 text-gray-600">
+            <p className="mt-6 text-lg leading-8 text-white">
               This web page was created just to show the navbar and its
               properties.
             </p>
@@ -35,7 +35,7 @@ export default function Home() {
               </a>
               <a
                 href="#"
-                className="text-sm font-semibold leading-6 text-gray-900"
+                className="text-sm font-semibold leading-6 text-white"
               >
                 Learn more <span aria-hidden="true">→</span>
               </a>
